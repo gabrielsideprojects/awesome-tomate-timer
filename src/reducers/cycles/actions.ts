@@ -22,6 +22,7 @@ export function markCurrentCycleAsFinishedAction() {
 }
 
 export function interruptCurrentCycleAction() {
+  console.log('aquiiii')
   return {
     type: ActionTypes.INTERRUPT_CURRENT_CYCLE,
   }
